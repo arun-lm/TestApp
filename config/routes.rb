@@ -1,4 +1,10 @@
 SecondApp::Application.routes.draw do
+  resources :microposts
+
+  resources :teachers
+
+  resources :students
+
   resources :users
   #get '/users/' => 'users#index'
 
